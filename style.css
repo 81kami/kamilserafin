@@ -5,13 +5,17 @@
     box-sizing: border-box;
 }
 
-.main {
+body {
     background-color: rgb(130,170,230);
+}
+
+.main {
     height: 100vh;
     padding: 5%;
     box-sizing: full;
     display: grid;
     place-items: center;
+    height: fit-content;
 }
 
 .hor {
