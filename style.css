@@ -23,6 +23,10 @@ body {
     flex-direction: row;
 }
 
+.cen {
+    text-align: center;
+}
+
 .cell {
     margin: 2%;
     font-size: 16pt;
@@ -95,5 +99,19 @@ a {
 
 .last {
     background-color: rgb(64,64,64);
+}
+
+svg {
+    width: 50%;
+}
+
+path {
+    stroke: black;
+    stroke-width: 0.5;
+}
+
+.thick {
+    stroke: black;
+    stroke-width: 1.0;
 }
 
